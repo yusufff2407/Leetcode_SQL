@@ -1,14 +1,27 @@
-#SQL-1 : LOW FAT PRODUCTS.
+# THIS REPOSITORY IS SPECIALLY FOR NOTING THE SOLUTIONS I DO ON THE LEETCODE SQL 50.
+# I STATRTED THIS CHALLANGE JUST TO SEE IF I CAN KEEP AT SOMETHING FOR SOMETIME.
+# I ASPIRE TO BECOME A DATA ENGINEEER.
+
+>>>>> ALL PROBLEMS ARE SOLVED USING "POSTGRES SQL"<<<<<
+
+-------> SELECT STATEMENT PROBLEMS <--------
+
+#1 : LOW FAT PRODUCTS.
 
 SELECT product_id FROM Products WHERE low_fats = 'Y' AND recyclable = 'Y';
 
 -----------------------------------------
-#SQL-2 : FIND CUTOMER REFEREE.
+#2 : FIND CUTOMER REFEREE.
 
 SELECT name from Customer WHERE referee_id !=2 OR referee_id IS NULL;
 
 -----------------------------------------
 
-#SQL-3 : BIG COUNTRIES.
+#3 : BIG COUNTRIES.
 
 SELECT name, population, area FROM World WHERE area >= 3000000 OR population >= 25000000;
+
+------------------------------------------
+
+#4. ARTICAL VIEWS I
+
