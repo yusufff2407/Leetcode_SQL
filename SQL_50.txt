@@ -25,3 +25,8 @@ SELECT name, population, area FROM World WHERE area >= 3000000 OR population >= 
 
 #4. ARTICAL VIEWS I
 
+SELECT DISTINCT author_id AS id FROM views WHERE author_id = viewer_id ORDER BY author_id;
+
+#5 INVALID TWEETS
+
+SELECT tweet_id FROM Tweets WHERE char_length(content) > 15;
