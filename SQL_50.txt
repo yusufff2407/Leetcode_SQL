@@ -45,3 +45,12 @@ LEFT JOIN employeeUNI AS e2
 ON e1.id = e2.id;
 
 -------------------------------------------
+
+#7 PRODUCT SLAES ANALYSIS I
+
+SELECT product_name, year, price
+FROM Sales
+ JOIN Product
+ON Product.product_id = Sales.product_id;
+ 
+------------------------------------------
