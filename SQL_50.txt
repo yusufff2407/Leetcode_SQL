@@ -39,4 +39,9 @@ SELECT tweet_id FROM Tweets WHERE char_length(content) > 15;
 
 #6 REPLACE EMPLOYEE ID WITH THE UNIQUE IDENTIFIER
 
-coming soon.
+SELECT e2.unique_id, e1.name 
+FROM employees AS e1
+LEFT JOIN employeeUNI AS e2
+ON e1.id = e2.id;
+
+-------------------------------------------
