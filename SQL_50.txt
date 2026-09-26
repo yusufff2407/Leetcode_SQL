@@ -71,4 +71,4 @@ GROUP BY v.customer_id;
 
 #9 RISING TEMPRETURE
 
-coming tomorrow.
+damn i got an exam can't solve today.
