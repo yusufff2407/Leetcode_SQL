@@ -57,7 +57,6 @@ ON Product.product_id = Sales.product_id;
 
 #8 CUSTOMER WHO VISITED BUT DID NOT MAKE ANY TRANSACTIONS
 
--- Write your PostgreSQL query statement below
 SELECT 
     v.customer_id, 
     COUNT(v.visit_id) AS count_no_trans
