@@ -70,4 +70,4 @@ GROUP BY v.customer_id;
 
 #9 RISING TEMPRETURE
 
-damn i got an exam can't solve today.
+Dman the contribution sign isn't showing.
